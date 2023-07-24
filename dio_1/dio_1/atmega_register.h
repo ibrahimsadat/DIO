@@ -1,0 +1,28 @@
+/*
+ * atmega_register.h
+ *
+ * Created: 7/24/2023 1:09:24 PM
+ *  Author: ibrah
+ */ 
+
+
+#ifndef ATMEGA_REGISTER_H_
+#define ATMEGA_REGISTER_H_
+
+#define DDRA (*(volatile uint8*)(0x3A))
+#define PORTA (*(volatile uint8*)(0x3B))
+#define PINA (*(volatile uint8*)(0x39))
+
+
+#define DDRC (*(volatile uint8*)(0x37))
+#define PORTC (*(volatile uint8*)(0x38))
+#define PINC (*(volatile uint8*)(0x36))
+
+
+#define DDRC (*(volatile uint8*)(0x34))
+#define PORTC (*(volatile uint8*)(0x35))
+#define PINC (*(volatile uint8*)(0x33))
+
+
+
+#endif /* ATMEGA_REGISTER_H_ */
